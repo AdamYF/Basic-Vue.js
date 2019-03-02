@@ -83,7 +83,18 @@
         components: {
             'my-artical': {
                 props: ['detail'],
-                template: '<div><div><h1>{{ detail.title }}</h1><div><span>{{ detail.date }}</span><span v-show="detail.is_original">原创</span></div></div><img :src="detail.cover_url" alt=""></div>'
+                template: '\
+                    <div>\
+                        <div>\
+                            <h1>{{ detail.title }}</h1>\
+                            <div>\
+                                <span>{{ detail.date }}</span>\
+                                <span v-show="detail.is_original">原创</span>\
+                            </div>\
+                        </div>\
+                        <img :src="detail.cover_url" alt="">\
+                    </div>\
+                '
             }
         },
         // 9. filters 过滤器
