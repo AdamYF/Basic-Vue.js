@@ -17,3 +17,5 @@
 [Demo11 - emit 事件 2nd](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo11)  
 [Demo12 - slot 插槽](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo12)  
 [Demo13 - axios](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo13)  
+[Demo14 - vue-router 1st](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo14)  
+[Demo15 - vue-router 2nd](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo15)  
