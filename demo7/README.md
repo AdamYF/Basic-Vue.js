@@ -6,4 +6,4 @@ Vue.js 中的 is 属性是为了解决 dom 结构中对放入 html 的元素有�
 ## emit 方法
 自定义组件中父组件通过 props 属性将数据传递给子组件，反过来子组件通过 $emit('event') 触发父组件，进而进行修改父组件的数据  
 emit 特性会在 demo8 中再详细使用  
-![emit](./img/emit.png)
+![emit](../img/emit.png)

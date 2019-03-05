@@ -6,14 +6,14 @@
 <title>自定义筛选或者搜索</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
-<link rel="stylesheet" type="text/css" href="css/cursor.css">
+<link rel="stylesheet" type="text/css" href="../css/cursor.css">
 </head>
 <body>
     <div id="cursor">
         <input type="text" id="search" name="search" v-model="searchCursor" placeholder="搜索 课程/问答" autofocus />
         <my-cursor :data="course" :filter-key="searchCursor"></my-cursor>
     </div>
-    <script type="text/javascript" src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+    <script type="text/javascript" src="../js/vue.min.js"></script>
     <script type="text/javascript">
         const myCursor = {  // 未使用
             props: {
