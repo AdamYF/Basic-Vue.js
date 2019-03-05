@@ -3,49 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>vue-router 1st</title>
+<title>wacth 的使用</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 </head>
 <body>
-    <div id='router'>
-        <h1>Hello App!</h1>
-        <p>
-            <router-link to='/home'>Go to Home</router-link>
-            <router-link to='/new'>Go to New</router-link>
-        </p>
-        <router-view></router-view>
+    <div id='app'>
+        <input type="text" v-model='searchQuery'>
+        <p v-if='isSearch' >search...</p>
+        <div v-else>
+            <ul>
+                <li v-for='(item,index) in items' v-cloak>{{ item }}</li>
+            </ul>
+        </div>
     </div>
     <script type="text/javascript" src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
-    <script type="text/javascript" src='js/vue-router.js'></script>
     <script type="text/javascript">
-        // 1. 创建组件
-        const Home = {
-            template: '<span>我是主页</span>'
-        };
-        const News = {
-            template: '<span>我是新闻</span>'
-        };
-        // 2. 配置路由
-        const routes = [
-            {
-                path: '/home', component: Home
+        let vm = new Vue({
+            el: '#app',
+            data: {
+                searchQuery: 'search',
+                isSearch: true,
+                items: []
             },
-            {
-                path: '/new', component: News
-            },
-            // 重定向，相当于404
-            {
-                path: '*', redirect: '/home'
+            watch: {
+                searchQuery: function(query) {
+                    this.isSearch = false;
+                    this.items.push(query);
+                }
             }
-        ];
-        // 3. 生成路由实例
-        const router = new VueRouter({
-            routes
         });
-        new Vue({
-            el: '#router',
-            router
+        // $watch
+        vm.$watch('searchQuery', function() {
+            alert(1);
         });
     </script>
 </body>

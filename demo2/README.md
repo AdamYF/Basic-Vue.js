@@ -1,3 +1,2 @@
-# Demo2 - Vue 自定义指令的使用
-- 可使用 Vue.directive(hook functions, function()) （全局自定义指令）或是 new Vue({ directives: {} }) （局部自定义指令）编写自定义指令  
-![directive](./img/directive.png)
+# Demo2 - Vue 的常用配置选项
+Vue 实例和注册全局组件时常用的配置选项列举

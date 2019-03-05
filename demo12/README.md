@@ -1,7 +1,4 @@
-# Demo12 - slot 插槽
-- slot 的作用就是占个位置
-![slot1](./img/slot1.png)  
-- 有时候我们会遇到这样的情况？组件自身定义的会被 template 替换掉！！！可是我并不想它被替换掉，那要如何解决？？？？
-- 前面说了 slot 的作用是占个位置，此刻 slot 就是解决问题的关键
-- 我们只需要在 template 里面加个 slot 标签占个位置就好了  
-![slot2](./img/slot2.png)
+# Demo12 - axios
+在 vue2.0 中官方推荐使用 axios 做数据交互；不在推荐使用以前的 vue-resourse ；其实做交互她们本质上是一样的 vue-resourse 怎么用，axios 也可以那样用  
+![axios](./img/axios.gif)  
+[详情请参考axios](https://github.com/axios/axios)
