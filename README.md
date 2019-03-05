@@ -20,3 +20,4 @@
 [Demo14 - vue-router 1st](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo14)  
 [Demo15 - vue-router 2nd](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo15)  
 [Demo16 - vue-router 3rd](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo16)  
+[Demo17 - Vue 自定义指令与钩子函数](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo17)  
