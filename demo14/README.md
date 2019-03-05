@@ -1,4 +1,4 @@
-# Demo14 - vue-router 1st
+# Demo14 - vue-router 1st 简单实例
 vue-router: 简称路由，根据不同的 url 地址，显示不同的效果
 
 ![vue-router](./img/vue-router.png)  
