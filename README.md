@@ -21,3 +21,4 @@
 [Demo15 - vue-router 2nd](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo15)  
 [Demo16 - vue-router 3rd](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo16)  
 [Demo17 - Vue 自定义指令与钩子函数](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo17)  
+[Demo18 - wacth 的使用](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo18)  
