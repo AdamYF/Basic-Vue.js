@@ -29,3 +29,4 @@
 [Demo15 - 弹框组件](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo15)  
 [Demo16 - this.$router 和 $route 的区别](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo16)  
 [Demo17 - 子组件之间的数据传递](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo17)  
+[Demo18 - 动态组件](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo18)  
