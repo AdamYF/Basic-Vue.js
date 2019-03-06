@@ -27,3 +27,4 @@
 &emsp;&emsp;[4. 给路由定义名字](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo13/4)  
 [Demo14 - wacth 的使用](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo14)  
 [Demo15 - 弹框组件](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo15)  
+[Demo16 - this.$router 和 $route 的区别](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo16)  
