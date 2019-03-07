@@ -1,4 +1,2 @@
-# Demo16 - this.$router 和 $route 的区别
-![this.$router](../img/this.$router.png)
-
-也可参考 https://blog.csdn.net/wangguoyu1996/article/details/80628135
+# Demo18 - 动态组件
+通过 components 和 is 特性 实现组件的动态切换
