@@ -30,8 +30,8 @@
 [Demo15 - 弹框组件](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo15)  
 [Demo16 - 动态组件](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo16)  
 [Demo17 - 子组件之间的数据传递](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo17)  
-&emsp;&emsp;[1. 父组件向子组件传递数据](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo17/1)  
-&emsp;&emsp;[2. 子组件修改父组件的数据](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo17/2)  
+&emsp;&emsp;1. 父组件向子组件传递数据  
+&emsp;&emsp;2. 子组件修改父组件的数据  
 &emsp;&emsp;[3. 子组件之间的数据传递（非父子组件间的通信）](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo17/3)  
-&emsp;&emsp;[4. 路由传值](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo17/4)  
-&emsp;&emsp;[5. 通过localStorage或者sessionStorage来存储数据](https://github.com/AdamYF/Basic-Vue.js/tree/master/demo17/5)  
+&emsp;&emsp;4. 路由传值  
+&emsp;&emsp;5. 通过localStorage或者sessionStorage来存储数据  
